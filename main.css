@@ -28,3 +28,11 @@
   border: 2px solid #fff;
   box-sizing: border-box;
 }
+.condensed {
+  height: 0;
+  overflow: hidden;
+}
+.show {
+  height: 15rem;
+  transition: height 1s;
+}
